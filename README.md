@@ -6,6 +6,12 @@ This is repo containing everything you need to start Project 2. All you need to 
 
 Make sure you refer to Canvas for more info.
 
+## Install Elventy
+From Terminal, navigate to the folder you saved the repository in
+
+Type `npm install --save-dev @11ty/eleventy`
+
+
 
 ## Test your site
 
