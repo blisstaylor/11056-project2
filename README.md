@@ -29,3 +29,5 @@ Open up your site folder and you'll discover a folder within it called `_site` t
 
 
 Reflection goes in here
+
+This website has been designed with space and pausing in mind – inspired by the topic of the website: Shroud by Hannah Quinlivan.
