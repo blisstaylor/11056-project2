@@ -26,3 +26,6 @@ Go to: http://localhost:8080 to view your site
 Run `npm build`
 
 Open up your site folder and you'll discover a folder within it called `_site` this is where your actual site files are located. 
+
+
+Reflection goes in here

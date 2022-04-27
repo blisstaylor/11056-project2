@@ -2,9 +2,75 @@
 layout: base
 ---
 
-<div class="hero">
+<!-- <div class="hero">
     <h2>{{hero.title }}</h2>
+</div> -->
+
+<div class="hero">
+    <h1>{{hero.title}}</h1>
 </div>
+
+<div class="bg1 pull">
+    <h2>{{pull.one}}</h2>
+</div>
+
+<div class="gap">
+</div>
+
+<div class="bg2">
+    <img src="{{image1.src}}" alt="{{image1.alt}}">
+
+    <div class="pull">
+        <h2>{{pull.two}}</h2>
+    </div>
+
+    <div class="middle">
+        <img src="{{image2.src}}" alt="{{image2.alt}}">
+    </div>
+
+    <div class="over wrapper">
+        <img src="{{image3.src}}" alt="{{image3.alt}}">
+        <div class="par">
+            <h2>{{par.one}}</h2>
+        </div>
+    </div>
+
+    <img src="{{image4.src}}" alt="{{image4.alt}}">
+
+</div>
+
+<div class="bg1 pull">
+    <h2>{{pull.three}}</h2>
+</div>
+
+<div class="bg1 pull">
+    <h2>{{pull.four}}</h2>
+</div>
+
+
+<h4>{{bridge.test}}</h4>
+
+<!-- have a class for pull quotes and one for each background
+
+do images with negative margins to overlap-->
+
+<!-- <div class="grid">
+    <div class="box">
+        <img src="{{image1.src}}" alt="{{image1.alt}}">
+    </div>
+    <div class="box">
+        <img src="{{image2.src}}" alt="{{image2.alt}}">
+    </div>
+    <div class="box">
+        <img src="{{image3.src}}" alt="{{image3.alt}}">
+    </div>
+</div> -->
+
+
+
+
+
+<!-- content will be the artist info -->
 
 <div class="main-content">
     {{ content }}
