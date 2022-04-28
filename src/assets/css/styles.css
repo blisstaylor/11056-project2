@@ -1,12 +1,19 @@
 body {
     font-size: 16px;
     /* background-color: #f7f7f7; */
-    font-family: sans-serif;
+    font-family: utile-display, sans-serif;
+    font-weight: 400;
     color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 h1 {
     font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     /* margin: 1em 0 1.5em 0; */
 }
@@ -23,16 +30,16 @@ h3 {
 p {
     font-size: 1.2em;
     line-height: 1.5em;
-    margin-bottom: 1.5em;
+    /* margin-bottom: 1.5em; */
 }
 
 a {
     text-decoration: none;
-    color: rgb(63, 63, 63);
+    color: #fff;
 }
 
 a:hover {
-    color: #000000;
+    color: #86849c;
 }
 
 .inner-wrapper {
@@ -43,13 +50,15 @@ a:hover {
 footer {
     /* background-color: #f7f7f7; */
     /* border: 0.5px solid #fff; */
-    /* padding: 2em 0; */
-    background: #000000;
+    padding: 2em;
+    background: #21202E;
+    color: #86849c;
+    /* border: solid 1px #fff; */
 }
 
 .hero {
     text-align: center;
-    background: #a5a5a5;
+    /* background: #a5a5a5; */
     width: 100%;
     height: 100vh;
     position: sticky;
@@ -65,16 +74,27 @@ footer {
     /* background-position: center; */
     background-size: cover;
     background-position: fixed;
-
-
 }
+
+.line-bottom {
+    padding: 1em;
+    border-bottom: solid 1px #fff;
+}
+
+.end {
+    padding: 1em;
+    margin-top: -5em;
+    text-align: center;
+}
+
+
 
 .logo {
     height: 80px;
 }
 
 main {
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 }
 
 img {
