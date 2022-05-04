@@ -89,6 +89,6 @@ image9:
 ---
 
 
-## About the artist
+# About the artist
 
 Hannah Quinlivan is a young artist who has found her own distinctive voice, one which unites the intimate and the personal with the public and universal. Her art is distinctive, intense and very memorable. Sasha Grishin, 2018.  Hannah Quinlivan’s abstract drawing practice has a number of strands, with ephemeral site-specific spatial drawing becoming increasingly important to her work. She completed a major public art commission for the Canberra Light Rail Network in 2019, creating drawings that were integrated into each of the thirteen stops on the new line.   Over the last five years, she has exhibited site specific ephemeral artworks in Berlin, Paris, New York, Cambridge, Colorado, Italy, Hong Kong, Sydney and Melbourne. Quinlivan is represented in number of collections including the National Gallery of Australia.

@@ -6,8 +6,9 @@ layout: base
     <h2>{{hero.title }}</h2>
 </div> -->
 
+
 <div class="hero">
-    <div class="line-bottom">
+    <div class="line-bottom inner-wrapper">
         <h1>{{hero.title}}</h1>
     </div>
 </div>
@@ -25,24 +26,27 @@ layout: base
         <h2>{{pull.two}}</h2>
     </div>
 
-    <div class="middle">
+    <div class="wrapper">
         <img src="{{image2.src}}" alt="{{image2.alt}}">
     </div>
 
     <div class="over wrapper">
-        <img src="{{image3.src}}" alt="{{image3.alt}}">
-        <div class="par">
-            <h2>{{par.one}}</h2>
+        <div class="a">
+            <img src="{{image3.src}}" alt="{{image3.alt}}">
+        </div>
+        <div class="par b">
+            <p>{{par.one}}</p>
         </div>
     </div>
 </div>
 
-
 <div class="bg1">
     <img src="{{image4.src}}" alt="{{image4.alt}}">
-    <div class="pull">
-        <h2>{{pull.three}}</h2>
-    </div>
+</div>
+<div class="gap"></div>
+<div class="bg1 pull">
+    <h2>{{pull.three}}</h2>
+</div>
 </div>
 
 <div class="gap"></div>
@@ -61,7 +65,7 @@ layout: base
         <h2>{{pull.five}}</h2>
     </div>
 
-    <div class="middle">
+    <div class="wrapper image">
         <img src="{{image6.src}}" alt="{{image6.alt}}">
     </div>
 </div>
@@ -77,15 +81,15 @@ layout: base
         <h2>{{pull.six5}}</h2>
     </div>
 
-    <div class="caption">
+    <div class="caption wrapper">
         <h3>{{caption.one}}</h3>
     </div>
 
-    <div class="middle">
+    <div class="wrapper image">
         <img src="{{image7.src}}" alt="{{image7.alt}}">
     </div>
 
-    <div class="caption">
+    <div class="caption wrapper">
         <h3>{{caption.two}}</h3>
     </div>
 
@@ -93,21 +97,33 @@ layout: base
 
 </div>
 
-<div class="main-content bg1 middle par">
-    {{ content }}
-</div>
+<div class="gap"></div>
 
-<div class="bg1">
+<div class="main-content bg3 wrapper">
+    <div class="vert-wrapper">
+        {{ content }}
+    </div>
+
     <div class="caption">
         <h3>{{caption.three}}</h3>
     </div>
-    <img src="{{image9.src}}" alt="{{image9.alt}}">
-    <div class="end">
-        <a href="#">
-        <h1>{{button.one}}</h1>
-        </a>
-    </div>
 </div>
+
+<div class="final">
+    <div class="final-text">
+        <div class="line-top">
+            <h1><a href="#">{{button.one}}</a></h1>
+        </div>
+    </div>
+    <!-- <img src="{{image9.src}}" alt="{{image9.alt}}"> -->
+    <!-- <div class="end"> -->
+
+    <!-- </div> -->
+</div>
+
+<!-- is there a better way to do this? like by placing the text on top of the image so  -->
+
+
 
 <!-- <h4>{{bridge.test}}</h4> -->
 
