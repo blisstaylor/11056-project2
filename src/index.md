@@ -1,15 +1,10 @@
 ---
-# set the layout to use, in this case, the homepage one
 layout: layouts/homepage
 
-# set the page title
 title: Shroud
-
-# We can set extra info here to use in our templates
 
 hero:
     title: "Shroud"
-    # src: "/assets/images/img8.jpeg"
 
 bridge:
     test: "hello! i am a fancy variable"
@@ -39,52 +34,39 @@ button:
 
 image1: 
     src: "assets/images/img6.jpeg"
-    alt: "image"
+    alt: "Shroud at sunrise"
 
 image2:
     src: "assets/images/img4.jpeg"
-    alt: "image"
+    alt: "Shroud at sunrise"
 
 image3:
     src: "assets/images/img7.jpeg"
-    alt: "image"
+    alt: "Shroud at sunrise"
 
 image4:
     src: "assets/images/img5.jpeg"
-    alt: "image"
+    alt: "Shroud at sunrise"
 
 image5:
     src: "assets/images/img10.jpeg"
-    alt: "image"
+    alt: "Shroud in daylight"
 
 image6:
     src: "assets/images/img1.jpeg"
-    alt: "image"
+    alt: "Shroud in daylight"
 
 image7:
     src: "assets/images/img2.jpeg"
-    alt: "image"
+    alt: "Shroud in daylight"
 
 image8:
     src: "assets/images/img11.jpeg"
-    alt: "image"
+    alt: "Shroud at sunset"
 
 image9:
     src: "assets/images/img9.jpeg"
-    alt: "image"    
-
-# image1:
-#     src: "/assets/images/img1.jpeg"
-#     alt: "test"
-
-# image2:
-#     src: "/assets/images/img9.jpeg"
-#     alt: "test"
-# image3:
-#     src: "/assets/images/img10.jpeg"
-#     alt: "test"
-
-# put images in front matter
+    alt: "Shroud at night"    
 
 ---
 
