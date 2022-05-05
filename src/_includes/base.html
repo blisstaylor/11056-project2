@@ -2,30 +2,17 @@
 <html lang="en">
 
 <head>
-
-    <!-- load the head content from the head.html file -->
     {% include '_head.html' %}
-
-    <!-- set the site title to be a variable, defined in the md file -->
     <title>{{ title }}</title>
 </head>
 
 <body>
-    <!-- <header> -->
-        <!-- <div class="inner-wrapper"> -->
-            <!-- <h1>{{ title }}</h1> -->
-        <!-- </div> -->
-    <!-- </header> -->
 
-    
     <main>
-        <!-- <div class="inner-wrapper"> -->
-            <!-- STOP! Don't add anything more to the base template -->
-            <!-- the content here is loaded through the homepage template -->
-            {% block content %}
-            {{ content }}
-            {% endblock %}
-        </div>
+        <!-- the content here is loaded through the homepage template -->
+        {% block content %}
+        {{ content }}
+        {% endblock %}
     </main>
 
     {% include '_footer.html' %}
