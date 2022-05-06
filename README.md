@@ -4,7 +4,7 @@
 
 Originally I was going to make a portfolio website about myself, but I was too attached to the content and agonised over each decision. So instead this website is about an artist featured in contour 556 – Hannah Quinlivan. I have used materials from her website and the contour 566 site.
 
-After learning more about 'Shroud' – the artwork the site is about – it became clear that part of the important of the work is to pause and reflect. Keeping this in mind, I designed the site to have lots of space and time for reflection. 
+After learning more about 'Shroud' – the artwork the site is about – it became clear that part of the importance of the work is to pause and reflect. Keeping this in mind, I designed the site to have lots of space and time for reflection. 
 
 To do this, I have broken up the about text into its sentences, sharing a line or two at a time. There is a fixed image of Shroud in the background at all times, with the lines of text and other images coming over the top as you scroll. There are deliberate breaks in the content to encourage the user to take in the information on the site, as well as to look at the background image.
 
@@ -17,3 +17,7 @@ Using the static site generator at first was confusing. Not going to lie! But on
 For this specific site it would probably make more sense to just code it normally as it is a one page site and there are a lot of images and broken up text. However, I can definitely see how this format would be useful on a larger site. 
 
 I have tried to simplify my code, yet because there are multiple different margins needed depending on the content, it was slightly more complicated than I thought it would be.
+
+The layout of the content is fairly simple, but I have used a grid in the orange section of the site. This allowed me to make it responsive. I have used negative margins for one of the images in the orange section to make it overlap the larger image. This created a bit of difference in this section and allowed the text with it to stand out.
+
+I have also made some of the images full width and others are inside the wrapper. This also makes the site feel different as you scroll down rather than just having one layout the whole time.
