@@ -21,3 +21,11 @@ I have tried to simplify my code, yet because there are multiple different margi
 The layout of the content is fairly simple, but I have used a grid in the orange section of the site. This allowed me to make it responsive. I have used negative margins for one of the images in the orange section to make it overlap the larger image. This created a bit of difference in this section and allowed the text with it to stand out.
 
 I have also made some of the images full width and others are inside the wrapper. This also makes the site feel different as you scroll down rather than just having one layout the whole time.
+
+I did prototype the website before I made it as well which made it much easier and more straightforward to code because I wasn't trying to make as many decisions at once.
+
+Here is the prototype, you can see that I was able to achieve what I wanted with some adjustments after getting feedback from others in the class.
+
+(The white sections are where the background image shows through)
+
+![Prototype](prototype.png)
