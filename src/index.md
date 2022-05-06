@@ -6,9 +6,6 @@ title: Shroud
 hero:
     title: "Shroud"
 
-bridge:
-    test: "hello! i am a fancy variable"
-
 pull:
     one: "Shroud is an ephemeral spatial drawing that educes what Ben Anderson terms ‘the affective atmosphere’ of life after periods of crisis."
     two: "It responds to the red summer with which the year 2020 began, the subsequent health and economic crisis, and the fissures they have riven in our collective mood."
